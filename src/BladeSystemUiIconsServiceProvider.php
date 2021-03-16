@@ -12,9 +12,9 @@ final class BladeSystemUiIconsServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->callAfterResolving(Factory::class, function (Factory $factory) {
-            $factory->add('simple-icons', [
+            $factory->add('systemui-icons', [
                 'path' => __DIR__.'/../resources/svg',
-                'prefix' => 'si',
+                'prefix' => 'sui',
             ]);
         });
     }
@@ -23,8 +23,8 @@ final class BladeSystemUiIconsServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../resources/svg' => public_path('vendor/blade-si'),
-            ], 'blade-si');
+                __DIR__.'/../resources/svg' => public_path('vendor/blade-sui'),
+            ], 'blade-sui');
         }
     }
 }

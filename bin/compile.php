@@ -36,71 +36,9 @@ class SvgIconCleaner
         }
     }
 
-    private function replaceSolidPatterns($svgText)
-    {
-
-        // check if exists
-        preg_match('/<svg.*(fill\=\"currentColor\".*?>)/', $svgText, $matches);
-
-        if (count($matches) == 2 && isset($matches[0])) {
-            return false;
-        }
-
-        // replace it
-
-        preg_match('/<svg.*?>/', $svgText, $matches);
-
-        if (count($matches) > 0 && isset($matches[0])) {
-            $source = $matches[0];
-            $replacement = str_replace('>', ' fill="currentColor">', $source);
-            $svgText = str_replace($source, $replacement, $svgText);
-        }
-        return $svgText;
-    }
-
-    //fill="none" stroke="currentColor"
-    private function replaceOutlinePatterns($svgText)
-    {
-
-        // check if exists
-        preg_match('/<svg.*(fill\=\"none\"\sstroke\=\"currentColor\".*?>)/', $svgText, $matches);
-
-        if (count($matches) == 2 && isset($matches[0])) {
-            return false;
-        }
-
-        // replace it
-
-        preg_match('/<svg.*?>/', $svgText, $matches);
-
-        if (count($matches) > 0 && isset($matches[0])) {
-            $source = $matches[0];
-            $replacement = str_replace('>', ' fill="none" stroke="currentColor">', $source);
-            $svgText = str_replace($source, $replacement, $svgText);
-        }
-        return $svgText;
-    }
-
-    private function addAttributes()
-    {
-        // for solid icons
-        $finder = new Finder();
-        $finder->files()->in(self::RESOURCE_DIR)->name('*.svg');
-        foreach ($finder as $file) {
-            $changedText = $this->replaceSolidPatterns($file->getContents());
-            if ($changedText !== false) {
-                file_put_contents($file->getRealPath(), $changedText);
-            } else {
-                echo 'no changes'.PHP_EOL;
-            }
-        }
-    }
-
     public function process()
     {
         $this->removeAttributes();
-
-        $this->addAttributes();
     }
 }
 $svgCleaner = new SvgIconCleaner();
