@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Codeat3\BladeSystemUiIcons;
+namespace Codeat3\BladeSystemUIcons;
 
 use BladeUI\Icons\Factory;
 use Illuminate\Support\ServiceProvider;
 
-final class BladeSystemUiIconsServiceProvider extends ServiceProvider
+final class BladeSystemUIconsServiceProvider extends ServiceProvider
 {
     public function register(): void
     {

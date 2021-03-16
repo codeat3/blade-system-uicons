@@ -6,7 +6,7 @@ namespace Tests;
 
 use Orchestra\Testbench\TestCase;
 use BladeUI\Icons\BladeIconsServiceProvider;
-use Codeat3\BladeSystemUiIcons\BladeSystemUiIconsServiceProvider;
+use Codeat3\BladeSystemUIcons\BladeSystemUIconsServiceProvider;
 
 class CompilesIconsTest extends TestCase
 {
@@ -51,7 +51,7 @@ class CompilesIconsTest extends TestCase
     {
         return [
             BladeIconsServiceProvider::class,
-            BladeSystemUiIconsServiceProvider::class,
+            BladeSystemUIconsServiceProvider::class,
         ];
     }
 }
