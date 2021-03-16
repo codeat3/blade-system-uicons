@@ -1,7 +1,7 @@
 {
     "name": "codeat3/blade-system-uicons",
     "description": "A package to easily make use of Simple Icons in your Laravel Blade views.",
-    "keywords": ["Blade", "simpleicons", "Laravel"],
+    "keywords": ["Blade", "system", "uicons", "Laravel"],
     "homepage": "https://github.com/codeat3/blade-system-uicons",
     "license": "MIT",
     "authors": [
