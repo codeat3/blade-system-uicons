@@ -100,7 +100,7 @@ class SvgIconCleaner
     {
         $this->removeAttributes();
 
-        $this->addAttributes();
+        // $this->addAttributes();
     }
 }
 $svgCleaner = new SvgIconCleaner();
