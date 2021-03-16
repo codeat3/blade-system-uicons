@@ -12,7 +12,7 @@ final class BladeSystemUIconsServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->callAfterResolving(Factory::class, function (Factory $factory) {
-            $factory->add('systemui-icons', [
+            $factory->add('system-uicons', [
                 'path' => __DIR__.'/../resources/svg',
                 'prefix' => 'sui',
             ]);
