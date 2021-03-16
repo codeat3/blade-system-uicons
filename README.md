@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://banners.beyondco.de/Blade%20Simple%20Icons.png?theme=light&packageManager=composer+require&packageName=codeat3%2Fblade-systemui-icons&pattern=architect&style=style_1&description=A+package+to+use+Simple+Icons+in+your+Laravel+Blade+views&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" width="1280" title="Social Card Blade Simple Icons">
+    <img src="https://banners.beyondco.de/Blade%20System%20UIcons.png?theme=light&packageManager=composer+require&packageName=codeat3%2Fblade-systemui-icons&pattern=architect&style=style_1&description=A+package+to+use+System+UIcons+in+your+Laravel+Blade+views&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" width="1280" title="Social Card Blade Simple Icons">
 </p>
 
 # Blade Simple Icons
@@ -17,9 +17,9 @@
     <img src="https://img.shields.io/packagist/dt/codeat3/blade-systemui-icons" alt="Total Downloads">
 </a>
 
-A package to easily make use of [Simple Icons](https://github.com/simple-icons/simple-icons) in your Laravel Blade views.
+A package to easily make use of [System UIcons](hhttps://github.com/CoreyGinnivan/system-uicons) in your Laravel Blade views.
 
-For a full list of available icons see [the SVG directory](resources/svg) or preview them at [simpleicons.org](https://simpleicons.org/).
+For a full list of available icons see [the SVG directory](resources/svg) or preview them at [systemuicons.com](https://systemuicons.com/).
 
 ## Requirements
 
@@ -41,19 +41,19 @@ Please refer to [`the upgrade guide`](UPGRADE.md) when updating the library.
 Icons can be used as self-closing Blade components which will be compiled to SVG icons:
 
 ```blade
-<x-si-laravelnova/>
+<x-sui-alarm-clock/>
 ```
 
 You can also pass classes to your icon components:
 
 ```blade
-<x-si-laravelnova class="w-6 h-6 text-gray-500"/>
+<x-sui-alarm-clock class="w-6 h-6 text-gray-500"/>
 ```
 
 And even use inline styles:
 
 ```blade
-<x-si-laravelnova style="color: #555"/>
+<x-sui-alarm-clock style="color: #555"/>
 ```
 
 ### Raw SVG Icons
@@ -61,18 +61,18 @@ And even use inline styles:
 If you want to use the raw SVG icons as assets, you can publish them using:
 
 ```bash
-php artisan vendor:publish --tag=blade-si --force
+php artisan vendor:publish --tag=blade-sui --force
 ```
 
 Then use them in your views like:
 
 ```blade
-<img src="{{ asset('vendor/blade-si/laravelnova.svg') }}" width="10" height="10"/>
+<img src="{{ asset('vendor/blade-sui/alarm-clock.svg') }}" width="10" height="10"/>
 ```
 
 ### Blade Icons
 
-Blade Simple Icons uses Blade Icons under the hood. Please refer to [the Blade Icons readme](https://github.com/blade-ui-kit/blade-icons) for additional functionality.
+Blade System UIcons uses Blade Icons under the hood. Please refer to [the Blade Icons readme](https://github.com/blade-ui-kit/blade-icons) for additional functionality.
 
 ## Changelog
 
