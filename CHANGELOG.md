@@ -2,6 +2,9 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## 0.1.1 (2021-03-16)
+Typo Fixes
+
 ## 0.1.0 (2021-03-16)
 
 Initial release.
