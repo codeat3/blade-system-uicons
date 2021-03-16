@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://banners.beyondco.de/Blade%20System%20UIcons.png?theme=light&packageManager=composer+require&packageName=codeat3%2Fblade-systemui-icons&pattern=architect&style=style_1&description=A+package+to+use+System+UIcons+in+your+Laravel+Blade+views&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" width="1280" title="Social Card Blade Simple Icons">
+    <img src="https://banners.beyondco.de/Blade%20System%20UIcons.png?theme=light&packageManager=composer+require&packageName=codeat3%2Fblade-system-uicons&pattern=architect&style=style_1&description=A+package+to+use+System+UIcons+in+your+Laravel+Blade+views&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" width="1280" title="Social Card Blade Simple Icons">
 </p>
 
 # Blade Simple Icons
@@ -29,7 +29,7 @@ For a full list of available icons see [the SVG directory](resources/svg) or pre
 ## Installation
 
 ```bash
-composer require codeat3/blade-systemui-icons
+composer require codeat3/blade-system-uicons
 ```
 
 ## Updating
