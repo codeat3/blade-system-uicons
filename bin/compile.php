@@ -87,7 +87,7 @@ class SvgIconCleaner
         $finder = new Finder();
         $finder->files()->in(self::RESOURCE_DIR)->name('*.svg');
         foreach ($finder as $file) {
-            $changedText = $this->replaceSolidPatterns($file->getContents());
+            $changedText = $this->replaceOutlinePatterns($file->getContents());
             if ($changedText !== false) {
                 file_put_contents($file->getRealPath(), $changedText);
             } else {
@@ -100,7 +100,7 @@ class SvgIconCleaner
     {
         $this->removeAttributes();
 
-        // $this->addAttributes();
+        $this->addAttributes();
     }
 }
 $svgCleaner = new SvgIconCleaner();
