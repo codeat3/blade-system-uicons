@@ -3,12 +3,15 @@
 set -e
 
 # prepare the source of icons by cloning the repo
-TEMP_DIR=tmp
+TEMP_DIR=blade-icon-temp-dir
+DIRECTORY=$(cd `dirname $0` && pwd)
+
 mkdir -p $TEMP_DIR
 SOURCE=$TEMP_DIR/system-uicons
 git clone git@github.com:CoreyGinnivan/system-uicons.git $TEMP_DIR/system-uicons
-
-DIRECTORY=$(cd `dirname $0` && pwd)
+# cd $SOURCE
+# git pull
+# cd $DIRECTORY/../
 RESOURCES=$DIRECTORY/../resources/svg
 
 echo $SOURCE
