@@ -2,7 +2,7 @@
     <img src="https://banners.beyondco.de/Blade%20System%20UIcons.png?theme=light&packageManager=composer+require&packageName=codeat3%2Fblade-system-uicons&pattern=architect&style=style_1&description=A+package+to+use+System+UIcons+in+your+Laravel+Blade+views&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" width="1280" title="Social Card Blade Simple Icons">
 </p>
 
-# Blade Simple Icons
+# Blade System Uicons
 
 <a href="https://github.com/codeat3/blade-systemui-icons/actions?query=workflow%3ATests">
     <img src="https://github.com/codeat3/blade-systemui-icons/workflows/Tests/badge.svg" alt="Tests">
@@ -80,8 +80,8 @@ Check out the [CHANGELOG](CHANGELOG.md) in this repository for all the recent ch
 
 ## Maintainers
 
-Blade Simple Icons is developed and maintained by [Swapnil Sarwe](https://swapnilsarwe.com).
+Blade System Uicons is developed and maintained by [Swapnil Sarwe](https://swapnilsarwe.com).
 
 ## License
 
-Blade Simple Icons is open-sourced software licensed under [the MIT license](LICENSE.md).
+Blade System Uicons is open-sourced software licensed under [the MIT license](LICENSE.md).
