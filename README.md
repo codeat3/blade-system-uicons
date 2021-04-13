@@ -1,14 +1,11 @@
 <p align="center">
-    <img src="https://banners.beyondco.de/Blade%20System%20UIcons.png?theme=light&packageManager=composer+require&packageName=codeat3%2Fblade-system-uicons&pattern=architect&style=style_1&description=A+package+to+use+System+UIcons+in+your+Laravel+Blade+views&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" width="1280" title="Social Card Blade Simple Icons">
+    <img src="https://banners.beyondco.de/Blade%20System%20UIcons.png?theme=light&packageManager=composer+require&packageName=codeat3%2Fblade-system-uicons&pattern=architect&style=style_1&description=A+package+to+use+System+UIcons+in+your+Laravel+Blade+views&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" width="1280" title="Social Card Blade System Uicons">
 </p>
 
 # Blade System Uicons
 
 <a href="https://github.com/codeat3/blade-systemui-icons/actions?query=workflow%3ATests">
     <img src="https://github.com/codeat3/blade-systemui-icons/workflows/Tests/badge.svg" alt="Tests">
-</a>
-<a href="https://github.styleci.io/repos/258753939">
-    <img src="https://github.styleci.io/repos/258753939/shield?style=flat" alt="Code Style">
 </a>
 <a href="https://packagist.org/packages/codeat3/blade-systemui-icons">
     <img src="https://img.shields.io/packagist/v/codeat3/blade-systemui-icons" alt="Latest Stable Version">
@@ -17,7 +14,7 @@
     <img src="https://img.shields.io/packagist/dt/codeat3/blade-systemui-icons" alt="Total Downloads">
 </a>
 
-A package to easily make use of [System UIcons](hhttps://github.com/CoreyGinnivan/system-uicons) in your Laravel Blade views.
+A package to easily make use of [System UIcons](https://github.com/CoreyGinnivan/system-uicons) in your Laravel Blade views.
 
 For a full list of available icons see [the SVG directory](resources/svg) or preview them at [systemuicons.com](https://systemuicons.com/).
 
