@@ -33,6 +33,18 @@ composer require codeat3/blade-system-uicons
 
 Please refer to [`the upgrade guide`](UPGRADE.md) when updating the library.
 
+## Blade Icons
+
+Blade System Uicons uses Blade Icons under the hood. Please refer to [the Blade Icons readme](https://github.com/blade-ui-kit/blade-icons) for additional functionality. We also recommend to [enable icon caching](https://github.com/blade-ui-kit/blade-icons#caching) with this library.
+
+## Configuration
+
+Blade System Uicons also offers the ability to use features from Blade Icons like default classes, default attributes, etc. If you'd like to configure these, publish the `blade-system-uicons.php` config file:
+
+```bash
+php artisan vendor:publish --tag=blade-system-uicons-config
+```
+
 ## Usage
 
 Icons can be used as self-closing Blade components which will be compiled to SVG icons:
