@@ -32,7 +32,7 @@ final class BladeSystemUIconsServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->publishes([
                 __DIR__.'/../resources/svg' => public_path('vendor/blade-system-uicons'),
-            ], 'blade-system-uicons');
+            ], 'blade-sui'); // TODO: update the alias to `blade-system-uicons` in next major release
 
             $this->publishes([
                 __DIR__.'/../config/blade-system-uicons.php' => $this->app->configPath('blade-system-uicons.php'),
