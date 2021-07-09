@@ -19,7 +19,6 @@ final class BladeSystemUIconsServiceProvider extends ServiceProvider
 
             $factory->add('system-uicons', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
         });
-
     }
 
     private function registerConfig(): void
@@ -39,5 +38,4 @@ final class BladeSystemUIconsServiceProvider extends ServiceProvider
             ], 'blade-system-uicons-config');
         }
     }
-
 }
