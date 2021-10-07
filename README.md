@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://banners.beyondco.de/Blade%20System%20UIcons.png?theme=light&packageManager=composer+require&packageName=codeat3%2Fblade-system-uicons&pattern=architect&style=style_1&description=A+package+to+use+System+UIcons+in+your+Laravel+Blade+views&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" width="1280" title="Social Card Blade System Uicons">
+    <img src="./socialcard-blade-system-uicons.png" width="1280" title="Social Card Blade System Uicons">
 </p>
 
 # Blade System Uicons
