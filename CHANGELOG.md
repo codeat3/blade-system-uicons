@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-system-uicons/compare/1.3.2...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-system-uicons/compare/1.4.2...HEAD)
+
+## [1.4.2](https://github.com/codeat3/blade-system-uicons/compare/1.3.2...1.4.2) - 2022-05-10
+
+## What's Changed
+
+- chore: update icons with the latest commit [01a7d5e](https://github.com/CoreyGinnivan/system-uicons/commit/01a7d5ec3fa4b138dae869eeb663954a95986e0f) by @github-actions in https://github.com/codeat3/blade-system-uicons/pull/6
+
+**Full Changelog**: https://github.com/codeat3/blade-system-uicons/compare/1.3.2...1.4.2
 
 ## [1.3.2](https://github.com/codeat3/blade-system-uicons/compare/1.2.2...1.3.2) - 2022-02-05
 
