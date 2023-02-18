@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-system-uicons/compare/1.5.2...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-system-uicons/compare/1.6.2...HEAD)
+
+## [1.6.2](https://github.com/codeat3/blade-system-uicons/compare/1.5.2...1.6.2) - 2023-02-18
+
+### What's Changed
+
+- Laravel 10 support by @swapnilsarwe in https://github.com/codeat3/blade-system-uicons/pull/9
+
+**Full Changelog**: https://github.com/codeat3/blade-system-uicons/compare/1.5.2...1.6.2
 
 ## [1.5.2](https://github.com/codeat3/blade-system-uicons/compare/1.4.2...1.5.2) - 2022-05-23
 
