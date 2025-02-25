@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-system-uicons/compare/1.7.0...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-system-uicons/compare/1.8.0...HEAD)
+
+## [1.8.0](https://github.com/codeat3/blade-system-uicons/compare/1.7.0...1.8.0) - 2025-02-25
+
+### What's Changed
+
+* laravel 12 support added by @swapnilsarwe
+
+**Full Changelog**: https://github.com/codeat3/blade-system-uicons/compare/1.7.0...1.8.0
 
 ## [1.7.0](https://github.com/codeat3/blade-system-uicons/compare/1.6.2...1.7.0) - 2024-02-28
 
